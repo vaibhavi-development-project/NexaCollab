@@ -120,7 +120,7 @@ async function logoutUser(req, res) {
         if (!authHeader) {
             return res.status(400).json({ message: "No token provided" });
         }
-
+console.log("AUTH HEADER:", req.headers.authorization)
         const token = authHeader.split(" ")[1];
 
         if (token) {
