@@ -1,0 +1,9 @@
+@import "tailwindcss";
+.bg-dots {
+  background-image: radial-gradient(#00000008 1px, transparent 1px);
+  background-size: 16px 16px;
+}
+
+html {
+  scroll-behavior: smooth;
+}
